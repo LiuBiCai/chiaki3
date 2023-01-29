@@ -30,7 +30,7 @@ ninja
 ninja install
 cd ../..
 
-wget https://mirror.firedaemon.com/OpenSSL/openssl-1.1.1s.zip && 7z x openssl-1.1.1s.zip
+wget https://www.firedaemon.com/download-firedaemon-openssl-1-zip && 7z x openssl-1.1.*.zip
 
 # We need to avoid SDL Versions > 2.0.20 on Windows, since there's a problem with resampling using
 # the WASAPI audio driver: https://github.com/libsdl-org/SDL/issues/6326
